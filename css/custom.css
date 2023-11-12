@@ -1,0 +1,88 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+</style>
+/* common css */
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+}
+
+/* header */
+.navbar-brand{
+  font-size: 1.5rem;
+}
+.nav-link{
+   font-size: 1.2rem;
+}
+
+/* home */
+#home{
+  width: 100%;
+  min-height: 100vh;
+}
+#particles-js{
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0; left: 0;
+  background: #527cec;
+
+}
+#name{
+  margin-top: 16rem;
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+#tagline{
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+#learn-more{
+  padding: .4rem 1rem;
+  max-width: 10rem;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  text-decoration: none
+  text-align: center;
+}
+#learn-more:hover{
+  text-decoration: none;
+}
+/* resume */
+#resume{
+  width: 100%;
+  height: auto;
+  padding: 2rem 0;
+  }
+  #resume .card{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #resume .card{
+    height: 130px;
+  }
+/* portfolio */
+#portfolio{
+  position: relative;
+  width: 100%
+}
+#portfolio .grid .overlay{
+  width: absolute;
+  margin-top: 30px;
+  top: 0;bottom: 0;
+  left: 0;right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #527cec;
+}
